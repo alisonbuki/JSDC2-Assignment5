@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count.ly</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,900" rel="stylesheet"/>
+	<link type='text/css' href="css/style.css" rel="stylesheet"/>
+	
+</head>
+
+<body>
+<h1><a href="#" data-src="img/the-count.gif">COUNT</a>.LY</h1>
+
+<div id="counter">
+<button id="minus">&nbsp;&nbsp;&ndash;&nbsp;&nbsp;</button>
+<span id="count"></span>
+<button id="plus">&nbsp;&nbsp;+&nbsp;&nbsp;</button>
+<br/>
+<button id="clear">&nbsp;&nbsp;CLEAR&nbsp;&nbsp;</button>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="https://cdn.rawgit.com/tholman/giflinks/master/GifLinks.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script type='text/x-handlebars-template' id='count-template'>
+	<span class = "count">{{n}}</span>
+</script>
+
+</body>
+</html>
